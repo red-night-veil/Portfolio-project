@@ -140,7 +140,9 @@ body {
     min-height: 200px; }
   
   .navbar {
-    background-color: rgb(114, 5, 5); }
+    background-color: rgb(114, 5, 5); 
+  color:white
+  }
   
   a, a:hover {
    color: inherit;
@@ -159,3 +161,7 @@ body {
     z-index: 100;
    }
      
+   #loginModal .modal-header {
+    background-color: #720a29;
+    color: white;
+   }
